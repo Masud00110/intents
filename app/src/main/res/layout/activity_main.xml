@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:text="Bkash Identification" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/flowers" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:fontFamily="times"
+        android:textColor="#9C27B0"
+        android:layout_height="wrap_content"
+        android:text="Create a new account or login"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:backgroundTint="#4CAF50"
+        android:layout_width="200dp"
+        android:textSize="20dp"
+        android:fontFamily="times"
+        android:layout_height="50dp"
+        android:text="Signup" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:backgroundTint="#4CAF50"
+        android:fontFamily="times"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Login" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:fontFamily="times"
+        android:textColor="#ED0000"
+        android:layout_height="wrap_content"
+        android:text="Thanks For visit my app" />
+
+</LinearLayout>
